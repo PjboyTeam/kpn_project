@@ -2,6 +2,14 @@
 
 > krpano&amp;nuxt整合测试项目
 
+    目前处于初级阶段, 后续会慢慢优化
+
+## TODO  
+
+### doc  
+- [x] 完成 krpano 与 nuxt 的合并共存
+- [ ] 扩展内容
+
 ## Build Setup
 
 ```bash
