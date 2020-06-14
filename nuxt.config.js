@@ -13,7 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    // 引用外部 js
+    script: [{
+      src: './VR_Web/tour.js'
+    }]
   },
   /*
   ** Customize the progress-bar color

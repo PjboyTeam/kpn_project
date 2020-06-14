@@ -5,9 +5,18 @@
 </template>
 
 <style>
+/* 设置页面100%的办法 */
+html,
+body,
+#__nuxt,
+#__layout,
+#__layout>div{
+  height: 100%;
+}
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
